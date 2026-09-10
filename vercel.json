@@ -1,25 +1,7 @@
 {
-  "framework": null,
   "buildCommand": null,
-  "outputDirectory": ".",
-  "installCommand": null,
   "devCommand": null,
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, s-maxage=3600"
-        }
-      ]
-    }
-  ]
+  "installCommand": null,
+  "framework": null,
+  "outputDirectory": "public"
 }
